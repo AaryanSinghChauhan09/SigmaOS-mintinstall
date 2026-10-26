@@ -1,0 +1,17 @@
+[package]
+name = "sigmaos-mintinstall"
+version = "0.1.0"
+edition = "2021"
+authors = ["SigmaOS Project"]
+description = "Mint software installer"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-mintinstall"
+readme = "README.md"
+keywords = ["mintinstall", "installer", "software"]
+categories = ["gui"]
+
+[dependencies]
+sigmaos-kernel = { version = "0.1", path = "../SigmaOS-kernel" }
+
+[profile.release]
+opt-level = 3
