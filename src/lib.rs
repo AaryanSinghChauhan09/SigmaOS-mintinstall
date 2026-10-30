@@ -3,4 +3,4 @@
 
 pub mod mintinstall;
 
-pub use mintinstall::MintInstall;
+pub use mintinstall::MintInstallManager;
